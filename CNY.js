@@ -2,6 +2,14 @@ function whatsapp() {
 	window.location = 'http://wa.me/?text=https://tehck.github.io/individual_assignment_CNY1.html'
 }
 
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+
 function loadname() {
 	var mytext = getUrlVars()["text"];
 	var mytext2 = mytext.replace("%20", "&nbsp");
