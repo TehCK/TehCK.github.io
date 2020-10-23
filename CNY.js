@@ -2,25 +2,8 @@ function whatsapp() {
 	window.location = 'http://wa.me/?text=https://tehck.github.io/individual_assignment_CNY1.html'
 }
 
-function testjs()
-{
-	var firsttext = getUrlVars()["name"];
-	var editedname = firsttext.replace("~", "%20");
-	var editedname2 = editedname.replace("~", "%20");
-	var editedname3 = editedname2.replace("~", "%20");
-	var editedname4 = editedname3.replace("~", "%20");
-	window.location = 'http://dcs5604.com/cny20201.html?text='+editedname4;
-
-}
-
-
 function getUrlVars() {
-    var vars = {};
-    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-        vars[key] = value;
-    });
-    return vars;
-}
+    var name = send;
 
 function loadname() {
 	var mytext = getUrlVars()["text"];
