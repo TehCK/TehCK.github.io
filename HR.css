@@ -1,0 +1,62 @@
+h1{
+    color:greenyellow;
+    text-align: right;
+    text-shadow: 2px 2px 5px black;
+    font: Arial;
+}
+
+#center{
+  text-align: center;
+}
+
+a:link, a:visited {
+    background-color: green;
+    color: white;
+    padding: 150px 150px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: greenyellow;
+  }
+
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+  #send{
+    height:60px;
+    font-size:25pt;
+  }
+
+  .aligncenter{
+      text-align: center;
+  }
+  
+  #backgroud {
+    background: url(https://www.nicepng.com/png/detail/122-1222907_hari-raya-photo-frame.png);
+    background-repeat: no-repeat;
+    background-size: 1600px 900px;
+  }
+
+  [class*="col_"]{
+    float: right;
+    padding: 15px
+}
+.col_1 {width: 8.33%;}
+.col_2 {width: 16.66%;}
+.col_3 {width: 25%;}
+.col_4 {width: 33.33%;}
+.col_5 {width: 41.66%;}
+.col_6 {width: 50%;}
+.col_7 {width: 58.33%;}
+.col_8 {width: 66.66%;}
+.col_9 {width: 75%;}
+.col_10 {width: 83.33%;}
+.col_11 {width: 91.66%;}
+.col_12 {width: 100%;}
