@@ -9,11 +9,6 @@ a{
     text-align: center;
 }
 
-#backgroud {
-    background: url(https://www.slashgear.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg);
-    background-repeat: no-repeat;
-    background-size: 1600px 900px;
-}
 #CNY {
     background: url(https://c8.alamy.com/comp/2ADT2JK/chinese-new-year-background-with-rat-year-in-gold-and-red-themevector-illustration-2ADT2JK.jpg);
     background-repeat: no-repeat;
@@ -26,6 +21,12 @@ a{
 }
 #HR {
     background: url(https://static.vecteezy.com/system/resources/thumbnails/000/524/605/original/HARI_RAYA.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px 900px;
+}
+
+#HD {
+    background: url(https://png.pngtree.com/thumb_back/fw800/background/20190823/pngtree-happy-diwali-holiday-festival-of-light-oil-lamp-background-image_300365.jpg);
     background-repeat: no-repeat;
     background-size: 1600px 900px;
 }
